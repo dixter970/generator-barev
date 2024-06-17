@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+ }
+ #app {
+    margin-top: 50px;
+ }
+ #colorDisplay {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border: 1px solid #000;
+ }
+ #generator button, #login button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+ }
+ .hidden {
+    display: none;
+ }
+ #favoriteColors {
+    list-style-type: none;
+    padding: 0;
+ }
+ #favoriteColors li {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+ }
+ #favoriteColors li span {
+    display: inline-block;
+    width: 150px;
+ }

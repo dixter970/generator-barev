@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generátor náhodných barev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>Generátor náhodných barev</h1>
+        <div id="login">
+            <input type="text" id="username" placeholder="Uživatelské jméno">
+            <input type="password" id="password" placeholder="Heslo">
+            <button onclick="login()">Přihlásit se</button>
+        </div>
+        <div id="generator" class="hidden">
+            <div id="colorDisplay"></div>
+            <p id="hexCode">#FFFFFF</p>
+            <button onclick="generateColor()">Generovat barvu</button>
+            <button onclick="saveFavorite()">Uložit do oblíbených</button>
+        </div>
+        <div id="favorites" class="hidden">
+            <h2>Oblíbené barvy</h2>
+            <ul id="favoriteColors"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
